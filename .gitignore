@@ -1,0 +1,23 @@
+# ---- 本机中间产物，不要提交（作业要求：仓库里不能有 build/、.idea/）----
+build/
+cmake-build-*/
+bt*/
+.idea/
+
+# ---- 编译输出 ----
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.su
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# ---- CubeMX 备份 ----
+*.ioc.bak
